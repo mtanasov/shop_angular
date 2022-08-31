@@ -1,0 +1,15 @@
+<div id="main">
+   <div id="title"> Отзывы </div>
+   <textarea id="textarea" cols="175" rows="1" [(ngModel)]="newComment"
+      placeholder="тут Вы можете написать отзыв"></textarea>
+   <br>
+   <button id="button" (click)="cl($event)">
+      нажав на меня Вы cможете прикрепить отзыв к списку
+   </button>
+   <div id="groupe">
+      <div id="listComments"> Отзывы </div>
+      <ul>
+         <li *ngFor="let comm of comment"> {{comm}} </li>
+      </ul>
+   </div>
+</div>

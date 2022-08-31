@@ -1,0 +1,16 @@
+<div class={{clss}}>
+   <div class={{clssTitle}}> {{title}}</div>
+   <!-- название -->
+   <div class="groupe">
+      <img class={{clssImg}} [src]="img" alt="что-то пошло не так">
+      <!--картинка-->
+      <div class="groupe2" *ngIf="price">
+         <div class="description">{{description}}</div>
+         <div class="groupe3">
+            <div class="price"> {{price}}</div>
+            <button class="buy">{{btnBuy}}</button>
+            <button class="delete" style="display:none">{{btnDelete}}</button>
+         </div>
+      </div>
+   </div>
+</div>

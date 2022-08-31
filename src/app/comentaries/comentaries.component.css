@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'Didact Gothic', sans-serif; */
+
+
+#main {
+   display: flex;
+   border: 3px solid green;
+   margin: 10px 0 0 0;
+   border-radius: 25px;
+   padding: 25px;
+   flex-direction: column;
+   align-items: center;
+   background-color: #ebebeb;
+}
+
+#title {
+   font-family: 'Didact Gothic', sans-serif;
+   font-weight: 700;
+   margin-bottom: 15px;
+   /* border: 2px solid lightcoral; */
+   border-radius: 8px;
+   padding: 7px 15px;
+   color: #a19525;
+   font-size: 20px;
+   /* background-color: #add1ad; */
+}
+
+#textarea {
+   border-radius: 25px;
+   resize: none;
+   padding: 20px;
+   border-color: rgb(48, 117, 181);
+   font-family: 'Didact Gothic', sans-serif;
+}
+
+#button {
+   display: inline-block;
+   border: 2px solid grey;
+   border-radius: 25px;
+   padding: 5px 10px 7px 10px;
+   font-family: 'Didact Gothic', sans-serif;
+   font-size: 15px;
+   font-family: 'Didact Gothic', sans-serif;
+   margin-bottom: 10px;
+}
+
+
+#listComments {
+   font-family: 'Didact Gothic', sans-serif;
+   text-align: center;
+   font-weight: 700;
+}
+
+ul {
+   font-family: 'Didact Gothic', sans-serif;
+
+}
+
+ul>li {}
+
+#groupe {
+   background-color: white;
+   border: 2px solid grey;
+   padding: 25px 30px 25px 10px;
+   border-radius: 15px;
+}

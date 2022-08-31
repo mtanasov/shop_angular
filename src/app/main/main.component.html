@@ -1,0 +1,12 @@
+<div id="nav">
+   <img src="https://palatka.com.ua/images/logos/122/logo-palatka-1016-ukraine.png" alt="" height="60px"
+      style="margin-top: 12px">
+   <h1>Магазин кемпингового снаряжения</h1>
+</div>
+<hr>
+<div class="main" (click)="onClick($event)">
+   <a class="plate" *ngFor="let product of PP" [routerLink]="['product', product.id]">
+      <app-stupid [title]="product.title" [img]="product.image" [clss]="'smallPlate'" [clssTitle]="'clssTitle'"
+         [clssImg]="'clssImage'"></app-stupid>
+   </a>
+</div>
